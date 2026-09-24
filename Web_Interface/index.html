@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CRM Sales Opportunities Data Warehouse</title>
+<style>
+  :root {
+    --bg: #0b0e14;
+    --bg-soft: #10141d;
+    --surface: #161b26;
+    --surface-2: #1c2230;
+    --border: #262d3d;
+    --text: #e6e9f0;
+    --muted: #8b93a7;
+    --primary: #7c5cff;
+    --primary-2: #5ce1ff;
+    --won: #34d399;
+    --lost: #f87171;
+    --shadow: 0 10px 30px rgba(0,0,0,0.35);
+  }
+  * { box-sizing: border-box; }
+  ::selection { background: rgba(124,92,255,0.35); }
+
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: #2a3142; border-radius: 8px; }
+  ::-webkit-scrollbar-thumb:hover { background: #3a4258; }
+
+  body {
+    margin: 0;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 85% -10%, rgba(124,92,255,0.12), transparent 60%),
+      radial-gradient(900px 500px at -10% 20%, rgba(92,225,255,0.08), transparent 60%),
+      var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+
+  .layout { display: flex; min-height: 100vh; }
+
+  /* ---------------- Sidebar ---------------- */
+  nav {
+    width: 260px;
+    background: linear-gradient(180deg, var(--bg-soft), #0d1119);
+    border-right: 1px solid var(--border);
+    padding: 28px 0;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 24px 24px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+  .brand-icon {
+    width: 34px; height: 34px;
+    border-radius: 9px;
+    background: linear-gradient(135deg, var(--primary), var(--primary-2));
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 4px 16px rgba(124,92,255,0.4);
+    flex-shrink: 0;
+  }
+  .brand h1 { font-size: 15px; margin: 0; font-weight: 700; letter-spacing: -0.01em; }
+  .brand span { display: block; font-size: 11px; color: var(--muted); margin-top: 2px; font-weight: 500; }
+
+  nav ul { list-style: none; margin: 0; padding: 0 12px; }
+  nav li.section-label {
+    padding: 20px 12px 8px;
+    font-size: 10.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    color: #565f78;
+    font-weight: 700;
+  }
+  nav li a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 11px 14px;
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 13.5px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 3px;
+    transition: all 0.18s ease;
+    position: relative;
+  }
+  nav li a svg { width: 17px; height: 17px; flex-shrink: 0; opacity: 0.75; transition: opacity 0.18s ease; }
+  nav li a:hover { background: var(--surface); color: var(--text); }
+  nav li a:hover svg { opacity: 1; }
+  nav li a.active {
+    background: linear-gradient(135deg, rgba(124,92,255,0.18), rgba(92,225,255,0.08));
+    color: #fff;
+    box-shadow: inset 0 0 0 1px rgba(124,92,255,0.35);
+  }
+  nav li a.active svg { opacity: 1; color: var(--primary-2); }
+
+  .sidebar-footer {
+    margin-top: auto;
+    padding: 16px 24px 0;
+    border-top: 1px solid var(--border);
+    font-size: 11px;
+    color: #4b5468;
+  }
+
+  /* ---------------- Main content ---------------- */
+  main { flex: 1; padding: 40px 48px; max-width: 1180px; }
+  main h2 {
+    margin: 0 0 6px;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    background: linear-gradient(90deg, #fff, #b9c0d4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .subtitle { color: var(--muted); font-size: 13.5px; margin-bottom: 28px; }
+
+  /* ---------------- KPI cards ---------------- */
+  .kpi-row { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 28px; }
+  .kpi-card {
+    background: linear-gradient(160deg, var(--surface), var(--surface-2));
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 18px 20px;
+    min-width: 170px;
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .kpi-card::before {
+    content: "";
+    position: absolute; inset: 0;
+    background: linear-gradient(135deg, rgba(124,92,255,0.08), transparent 60%);
+    pointer-events: none;
+  }
+  .kpi-card:hover { transform: translateY(-3px); box-shadow: var(--shadow); border-color: #333c50; }
+  .kpi-card .label { font-size: 11.5px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600; }
+  .kpi-card .value { font-size: 27px; font-weight: 800; margin-top: 8px; letter-spacing: -0.02em; }
+  .kpi-card.won .value { color: var(--won); }
+  .kpi-card.lost .value { color: var(--lost); }
+
+  /* ---------------- Table ---------------- */
+  .table-wrap {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+  }
+  table { width: 100%; border-collapse: collapse; }
+  thead th {
+    text-align: left;
+    background: rgba(255,255,255,0.02);
+    padding: 13px 18px;
+    font-size: 11.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    font-weight: 600;
+    border-bottom: 1px solid var(--border);
+  }
+  tbody td {
+    padding: 12px 18px;
+    font-size: 13.5px;
+    border-bottom: 1px solid var(--border);
+    color: #d3d8e4;
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr { transition: background 0.12s ease; }
+  tbody tr:hover { background: rgba(124,92,255,0.06); }
+  .stage-Won { color: var(--won); font-weight: 700; }
+  .stage-Lost { color: var(--lost); font-weight: 700; }
+  .null-value { color: #4b5468; font-style: italic; }
+
+  /* ---------------- Pagination ---------------- */
+  .pagination { display: flex; align-items: center; gap: 14px; margin-top: 18px; font-size: 13.5px; color: var(--muted); }
+  .pagination button {
+    padding: 8px 16px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.15s ease;
+  }
+  .pagination button:hover:not(:disabled) { background: var(--surface-2); border-color: var(--primary); color: #fff; }
+  .pagination button:disabled { opacity: 0.35; cursor: not-allowed; }
+
+  /* ---------------- Chart ---------------- */
+  .chart-wrap {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: var(--shadow);
+  }
+  .bar-row { display: flex; align-items: center; margin-bottom: 13px; font-size: 13px; }
+  .bar-row:last-child { margin-bottom: 0; }
+  .bar-label { width: 160px; flex-shrink: 0; color: var(--muted); text-align: right; padding-right: 14px; font-weight: 500; }
+  .bar-track { flex: 1; background: var(--bg-soft); border-radius: 6px; overflow: hidden; height: 20px; position: relative; }
+  .bar-fill {
+    background: linear-gradient(90deg, var(--primary), var(--primary-2));
+    height: 100%;
+    border-radius: 6px;
+    width: 0%;
+    transition: width 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+    box-shadow: 0 0 12px rgba(124,92,255,0.5);
+  }
+  .bar-value { margin-left: 14px; width: 100px; font-variant-numeric: tabular-nums; font-weight: 600; color: #d3d8e4; }
+
+  /* ---------------- Loading / error ---------------- */
+  .loading, .error {
+    padding: 60px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 14px;
+  }
+  .error { color: var(--lost); }
+  .spinner {
+    width: 28px; height: 28px;
+    border: 3px solid var(--border);
+    border-top-color: var(--primary);
+    border-radius: 50%;
+    margin: 0 auto 14px;
+    animation: spin 0.8s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .fade-in { animation: fadeIn 0.35s ease; }
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+</style>
+</head>
+<body>
+<div class="layout">
+  <nav>
+    <div class="brand">
+      <div class="brand-icon">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M18.7 8 13 13.7l-3-3L4.3 16.4"/></svg>
+      </div>
+      <div>
+        <h1>CRM Warehouse</h1>
+        <span>Sales Analytics</span>
+      </div>
+    </div>
+    <ul>
+      <li class="section-label">Reports</li>
+      <li>
+        <a data-report="products" class="active">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.9 7.55a1.42 1.42 0 0 0-.66-1.06l-8.25-4.71a1.42 1.42 0 0 0-1.42 0L2.32 6.49A1.42 1.42 0 0 0 1.5 7.7v8.6a1.42 1.42 0 0 0 .66 1.06l8.25 4.71a1.42 1.42 0 0 0 1.42 0l8.25-4.71a1.42 1.42 0 0 0 .82-1.28Z"/><path d="M12 22V12"/><path d="m3.29 7 8.71 5 8.71-5"/></svg>
+          Products Report
+        </a>
+      </li>
+      <li>
+        <a data-report="opportunities">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><rect x="7" y="13" width="3" height="5"/><rect x="12" y="9" width="3" height="9"/><rect x="17" y="5" width="3" height="13"/></svg>
+          Sales Opportunities
+        </a>
+      </li>
+      <li class="section-label">Analyses</li>
+      <li>
+        <a data-report="establishment_year">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+          Establishment Revenue
+        </a>
+      </li>
+      <li>
+        <a data-report="product_analysis">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 14l3-3 3 3 5-6"/></svg>
+          Product Analysis
+        </a>
+      </li>
+    </ul>
+    <div class="sidebar-footer">ICT934 &middot; Data Warehouse Dashboard</div>
+  </nav>
+  <main id="main">
+    <div class="loading"><div class="spinner"></div>Loading...</div>
+  </main>
+</div>
+
+<script>
+const API = "../PHP_Query_Engine/queryEngine.php"; // adjust path if deployed differently
+let currentReport = "products";
+let currentPage = 1;
+
+const TITLES = {
+  products: "Products in the catalogue, priced and grouped by series.",
+  opportunities: "Every closed deal, won or lost, with running performance KPIs.",
+  establishment_year: "Total client revenue grouped by the year each account was founded.",
+  product_analysis: "Win/loss breakdown and revenue generated per product."
+};
+
+function fmt(value) {
+  if (value === null || value === undefined) {
+    return '<span class="null-value">&mdash;</span>';
+  }
+  return String(value);
+}
+
+async function loadReport(report, page = 1) {
+  currentReport = report;
+  currentPage = page;
+  document.querySelectorAll('nav a').forEach(a => a.classList.toggle('active', a.dataset.report === report));
+
+  const main = document.getElementById('main');
+  main.innerHTML = '<div class="loading"><div class="spinner"></div>Loading...</div>';
+
+  try {
+    const url = `${API}?report=${encodeURIComponent(report)}${report === 'opportunities' ? '&page=' + page : ''}`;
+    const res = await fetch(url);
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({}));
+      throw new Error(err.error || `Request failed (HTTP ${res.status})`);
+    }
+    const data = await res.json();
+    render(data, report);
+  } catch (e) {
+    main.innerHTML = `<div class="error">Could not load report: ${e.message}</div>`;
+  }
+}
+
+function render(data, report) {
+  const main = document.getElementById('main');
+  let html = `<h2>${data.title}</h2><div class="subtitle">${TITLES[report] || ''}</div>`;
+
+  if (data.kpis) {
+    html += '<div class="kpi-row">';
+    html += kpiCard('Total Opportunities', data.kpis.total_opportunities);
+    html += kpiCard('Won', data.kpis.won, 'won');
+    html += kpiCard('Lost', data.kpis.lost, 'lost');
+    html += kpiCard('Win Rate', data.kpis.win_rate_pct + '%');
+    html += kpiCard('Total Won Value', '$' + Number(data.kpis.total_won_value).toLocaleString());
+    html += '</div>';
+  }
+
+  if (data.chart) {
+    html += renderChart(data);
+  }
+
+  html += `<div class="table-wrap">${renderTable(data)}</div>`;
+
+  if (data.pagination) {
+    html += renderPagination(data.pagination);
+  }
+
+  main.innerHTML = `<div class="fade-in">${html}</div>`;
+
+  // animate bar widths in on next frame
+  requestAnimationFrame(() => {
+    document.querySelectorAll('.bar-fill').forEach(el => {
+      const target = el.dataset.target;
+      if (target) el.style.width = target + '%';
+    });
+  });
+
+  if (data.pagination) {
+    const p = data.pagination;
+    const prevBtn = document.getElementById('prevPage');
+    const nextBtn = document.getElementById('nextPage');
+    if (prevBtn) prevBtn.onclick = () => loadReport(report, p.page - 1);
+    if (nextBtn) nextBtn.onclick = () => loadReport(report, p.page + 1);
+  }
+}
+
+function kpiCard(label, value, extraClass = '') {
+  return `<div class="kpi-card ${extraClass}"><div class="label">${label}</div><div class="value">${value}</div></div>`;
+}
+
+function renderTable(data) {
+  let html = '<table><thead><tr>';
+  data.columns.forEach(c => html += `<th>${c}</th>`);
+  html += '</tr></thead><tbody>';
+  data.rows.forEach(row => {
+    html += '<tr>';
+    row.forEach((cell, i) => {
+      const isStage = data.columns[i] && data.columns[i].toLowerCase() === 'stage';
+      const cls = isStage && cell ? `stage-${cell}` : '';
+      html += `<td class="${cls}">${fmt(cell)}</td>`;
+    });
+    html += '</tr>';
+  });
+  html += '</tbody></table>';
+  return html;
+}
+
+function renderPagination(p) {
+  return `
+    <div class="pagination">
+      <button id="prevPage" ${p.page <= 1 ? 'disabled' : ''}>&laquo; Prev</button>
+      <span>Page ${p.page} of ${p.total_pages} &middot; ${p.total_rows} rows</span>
+      <button id="nextPage" ${p.page >= p.total_pages ? 'disabled' : ''}>Next &raquo;</button>
+    </div>`;
+}
+
+function renderChart(data) {
+  const labelIdx = data.chart.labels_index;
+  const valueIdx = data.chart.values_index;
+  const values = data.rows.map(r => parseFloat(r[valueIdx]) || 0);
+  const max = Math.max(...values, 1);
+
+  let html = '<div class="chart-wrap">';
+  data.rows.forEach(row => {
+    const label = row[labelIdx];
+    const value = parseFloat(row[valueIdx]) || 0;
+    const pct = (value / max) * 100;
+    html += `
+      <div class="bar-row">
+        <div class="bar-label">${label}</div>
+        <div class="bar-track"><div class="bar-fill" data-target="${pct}" style="width:0%"></div></div>
+        <div class="bar-value">${value.toLocaleString()}</div>
+      </div>`;
+  });
+  html += '</div>';
+  return html;
+}
+
+document.querySelectorAll('nav a').forEach(a => {
+  a.addEventListener('click', () => loadReport(a.dataset.report, 1));
+});
+
+loadReport('products');
+</script>
+</body>
+</html>

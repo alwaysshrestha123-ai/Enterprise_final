@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<accounts>
+  <account>
+    <account>Acme Hardware</account>
+    <sector>Retail</sector>
+    <year_established>1987</year_established>
+    <revenue>13.5</revenue>
+    <employees>2273</employees>
+    <office_location>Japan</office_location>
+    <subsidiary_of></subsidiary_of>
+  </account>
+  <account>
+    <account>Northwind Traders</account>
+    <sector>technolgy</sector>
+    <year_established>1988</year_established>
+    <revenue>368.5</revenue>
+    <employees>4487</employees>
+    <office_location>Germany</office_location>
+    <subsidiary_of></subsidiary_of>
+  </account>
+  <account>
+    <account>Bluefin Systems</account>
+    <sector>Finance</sector>
+    <year_established>1982</year_established>
+    <revenue>15.9</revenue>
+    <employees>1811</employees>
+    <office_location>Japan</office_location>
+    <subsidiary_of>Acme Hardware</subsidiary_of>
+  </account>
+  <account>
+    <account>Cedarline Corp</account>
+    <sector>medical</sector>
+    <year_established>2015</year_established>
+    <revenue>100.2</revenue>
+    <employees>4484</employees>
+    <office_location>Kenya</office_location>
+    <subsidiary_of></subsidiary_of>
+  </account>
+  <account>
+    <account>Marlow Group</account>
+    <sector>marketing</sector>
+    <year_established>2008</year_established>
+    <revenue>295.0</revenue>
+    <employees>73</employees>
+    <office_location>Brazil</office_location>
+    <subsidiary_of></subsidiary_of>
+  </account>
+  <account>
+    <account>Farview Ltd</account>
+    <sector>Software</sector>
+    <year_established>2001</year_established>
+    <revenue>139.7</revenue>
+    <employees>1783</employees>
+    <office_location>Philipines</office_location>
+    <subsidiary_of>Northwind Traders</subsidiary_of>
+  </account>
+  <account>
+    <account>Redgate Solutions</account>
+    <sector>employment</sector>
+    <year_established>1985</year_established>
+    <revenue>190.6</revenue>
+    <employees>2960</employees>
+    <office_location>Philipines</office_location>
+    <subsidiary_of></subsidiary_of>
+  </account>
+  <account>
+    <account>Silverpeak Inc</account>
+    <sector>Telecommunications</sector>
+    <year_established>1982</year_established>
+    <revenue>365.1</revenue>
+    <employees>4412</employees>
+    <office_location>Germany</office_location>
+    <subsidiary_of></subsidiary_of>
+  </account>
+  <account>
+    <account>Oakridge Networks</account>
+    <sector>Services</sector>
+    <year_established>1985</year_established>
+    <revenue>276.5</revenue>
+    <employees>2982</employees>
+    <office_location>Japan</office_location>
+    <subsidiary_of></subsidiary_of>
+  </account>
+  <account>
+    <account>Bellcrest Media</account>
+    <sector>entertainment</sector>
+    <year_established>1982</year_established>
+    <revenue>331.0</revenue>
+    <employees>2390</employees>
+    <office_location>Germany</office_location>
+    <subsidiary_of>Acme Hardware</subsidiary_of>
+  </account>
+  <account>
+    <account>Ironbridge Retail</account>
+    <sector>retail</sector>
+    <year_established>1986</year_established>
+    <revenue>190.7</revenue>
+    <employees>3734</employees>
+    <office_location>Philipines</office_location>
+    <subsidiary_of></subsidiary_of>
+  </account>
+  <account>
+    <account>Sunwell Finance</account>
+    <sector>technolgy</sector>
+    <year_established>2003</year_established>
+    <revenue>178.3</revenue>
+    <employees>2207</employees>
+    <office_location>Germany</office_location>
+    <subsidiary_of></subsidiary_of>
+  </account>
+  <account>
+    <account>Granite Medical</account>
+    <sector>finance</sector>
+    <year_established>2014</year_established>
+    <revenue>364.8</revenue>
+    <employees>1358</employees>
+    <office_location>France</office_location>
+    <subsidiary_of></subsidiary_of>
+  </account>
+  <account>
+    <account>Vantage Telecom</account>
+    <sector>Medical</sector>
+    <year_established>1997</year_established>
+    <revenue>494.8</revenue>
+    <employees>4582</employees>
+    <office_location>Japan</office_location>
+    <subsidiary_of></subsidiary_of>
+  </account>
+  <account>
+    <account>Crestview Services</account>
+    <sector>Marketing</sector>
+    <year_established>1983</year_established>
+    <revenue>115.3</revenue>
+    <employees>282</employees>
+    <office_location>Philipines</office_location>
+    <subsidiary_of>Redgate Solutions</subsidiary_of>
+  </account>
+  <account>
+    <account>Halcyon Software</account>
+    <sector>Software</sector>
+    <year_established>1997</year_established>
+    <revenue>34.0</revenue>
+    <employees>4666</employees>
+    <office_location>Philipines</office_location>
+    <subsidiary_of></subsidiary_of>
+  </account>
+  <account>
+    <account>Westfield Employment</account>
+    <sector>employment</sector>
+    <year_established>2011</year_established>
+    <revenue>198.4</revenue>
+    <employees>3778</employees>
+    <office_location>Brazil</office_location>
+    <subsidiary_of></subsidiary_of>
+  </account>
+  <account>
+    <account>Trueline Entertainment</account>
+    <sector>Telecommunications</sector>
+    <year_established>1988</year_established>
+    <revenue>124.1</revenue>
+    <employees>4618</employees>
+    <office_location>United Kingdom</office_location>
+    <subsidiary_of></subsidiary_of>
+  </account>
+  <account>
+    <account>Pinehill Marketing</account>
+    <sector>Services</sector>
+    <year_established>2007</year_established>
+    <revenue>449.0</revenue>
+    <employees>3291</employees>
+    <office_location>Philipines</office_location>
+    <subsidiary_of></subsidiary_of>
+  </account>
+  <account>
+    <account>Oceanic Systems</account>
+    <sector>entertainment</sector>
+    <year_established>1988</year_established>
+    <revenue>255.3</revenue>
+    <employees>764</employees>
+    <office_location>USA</office_location>
+    <subsidiary_of></subsidiary_of>
+  </account>
+</accounts>

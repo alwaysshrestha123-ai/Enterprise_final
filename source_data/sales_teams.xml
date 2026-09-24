@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sales_teams>
+  <sales_team>
+    <sales_agent>Cassey Cassidy</sales_agent>
+    <manager>Dustin Brinkmann</manager>
+    <regional_office>Central</regional_office>
+  </sales_team>
+  <sales_team>
+    <sales_agent>Kary Hendrixson</sales_agent>
+    <manager>Rocco Neubert</manager>
+    <regional_office>East</regional_office>
+  </sales_team>
+  <sales_team>
+    <sales_agent>Wilburn Weyer</sales_agent>
+    <manager>Melvin Marxen</manager>
+    <regional_office>West</regional_office>
+  </sales_team>
+  <sales_team>
+    <sales_agent>Vernita Chega</sales_agent>
+    <manager>Dustin Brinkmann</manager>
+    <regional_office>Central</regional_office>
+  </sales_team>
+  <sales_team>
+    <sales_agent>Marty Freudenburg</sales_agent>
+    <manager>Rocco Neubert</manager>
+    <regional_office>East</regional_office>
+  </sales_team>
+  <sales_team>
+    <sales_agent>Boris Tarwater</sales_agent>
+    <manager>Melvin Marxen</manager>
+    <regional_office>West</regional_office>
+  </sales_team>
+  <sales_team>
+    <sales_agent>Kami Berrey</sales_agent>
+    <manager>Dustin Brinkmann</manager>
+    <regional_office>Central</regional_office>
+  </sales_team>
+  <sales_team>
+    <sales_agent>Anna Boston</sales_agent>
+    <manager>Rocco Neubert</manager>
+    <regional_office>East</regional_office>
+  </sales_team>
+  <sales_team>
+    <sales_agent>Elease Farler</sales_agent>
+    <manager>Melvin Marxen</manager>
+    <regional_office>West</regional_office>
+  </sales_team>
+  <sales_team>
+    <sales_agent>Niesha Cyrier</sales_agent>
+    <manager>Dustin Brinkmann</manager>
+    <regional_office>Central</regional_office>
+  </sales_team>
+</sales_teams>

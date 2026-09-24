@@ -1,0 +1,22 @@
+Table,Field,Description
+accounts,account,Name of the client company
+accounts,sector,Industry sector of the client
+accounts,year_established,Year the company was founded
+accounts,revenue,Annual revenue in millions USD
+accounts,employees,Number of employees
+accounts,office_location,Country of the company's head office
+accounts,subsidiary_of,"Parent company, if any"
+products,product,Product name
+products,series,Product series/family
+products,sales_price,List price in USD
+sales_teams,sales_agent,Name of the sales agent
+sales_teams,manager,Name of the agent's manager
+sales_teams,regional_office,Regional office of the agent
+sales_pipeline,opportunity_id,Unique ID of the sales opportunity
+sales_pipeline,sales_agent,Agent working the opportunity
+sales_pipeline,product,Product being sold
+sales_pipeline,account,Client account (may be blank if not yet confirmed)
+sales_pipeline,deal_stage,Prospecting / Engaging / Won / Lost
+sales_pipeline,engage_date,Date the opportunity was engaged
+sales_pipeline,close_date,Date the opportunity was closed
+sales_pipeline,close_value,Value of the deal if won

@@ -1,0 +1,301 @@
+opportunity_id,sales_agent,product,account,deal_stage,engage_date,close_date,close_value
+OPP-0001,Kary Hendrixson,GTX Pro,Oceanic Systems,Lost,2023-08-05,2023-08-18,
+OPP-0002,Kami Berrey,GTX Plus Pro,Westfield Employment,Won,2023-08-28,2023-10-04,7931.59
+OPP-0003,Cassey Cassidy,MG Advanced,Oakridge Networks,Won,2023-10-02,2023-12-28,3176.09
+OPP-0004,Marty Freudenburg,GTX Plus Pro,Oakridge Networks,Engaging,2023-01-02,,
+OPP-0005,Wilburn Weyer,GTK 500,Westfield Employment,Lost,2023-06-02,2023-08-23,
+OPP-0006,Vernita Chega,GTXPro,Acme Hardware,Engaging,2023-09-29,,
+OPP-0007,Anna Boston,GTX Basic,,Prospecting,,,
+OPP-0008,Vernita Chega,GTK 500,Halcyon Software,Lost,2023-02-13,2023-02-26,
+OPP-0009,Elease Farler,MG Special,,Prospecting,,,
+OPP-0010,Elease Farler,MG Special,Trueline Entertainment,Won,2023-04-19,2023-05-19,59.68
+OPP-0011,Kami Berrey,MG Advanced,Westfield Employment,Won,2023-08-13,2023-10-14,2878.63
+OPP-0012,Vernita Chega,GTX Basic,Silverpeak Inc,Engaging,2023-10-11,,
+OPP-0013,Cassey Cassidy,GTX Basic,Silverpeak Inc,Won,2023-01-31,2023-02-13,639.19
+OPP-0014,Boris Tarwater,GTX Basic,Halcyon Software,Won,2023-05-23,2023-06-24,558.63
+OPP-0015,Niesha Cyrier,GTK 500,Vantage Telecom,Won,2023-08-31,2023-09-29,1800.28
+OPP-0016,Kami Berrey,GTX Plus Basic,Northwind Traders,Won,2023-08-28,2023-11-24,1308.26
+OPP-0017,Kary Hendrixson,GTX Basic,Cedarline Corp,Won,2023-06-23,2023-07-29,482.15
+OPP-0018,Elease Farler,GTX Plus Pro,,Prospecting,,,
+OPP-0019,Kary Hendrixson,GTX Plus Pro,Cedarline Corp,Lost,2023-10-09,2023-10-20,
+OPP-0020,Elease Farler,MG Special,,Prospecting,,,
+OPP-0021,Anna Boston,GTX Plus Pro,,Engaging,2023-07-25,,
+OPP-0022,Cassey Cassidy,GTX Plus Pro,,Engaging,2023-08-21,,
+OPP-0023,Elease Farler,MG Advanced,Redgate Solutions,Won,2023-03-21,2023-05-02,3009.86
+OPP-0024,Cassey Cassidy,GTK 500,Ironbridge Retail,Won,2023-02-01,2023-02-13,1762.3
+OPP-0025,Anna Boston,GTK 500,Farview Ltd,Lost,2023-09-29,2023-10-11,
+OPP-0026,Elease Farler,GTX Basic,Oceanic Systems,Lost,2023-02-05,2023-02-18,
+OPP-0027,Vernita Chega,GTX Plus Pro,Silverpeak Inc,Prospecting,,,
+OPP-0028,Cassey Cassidy,GTK 500,Pinehill Marketing,Prospecting,,,
+OPP-0029,Marty Freudenburg,GTX Pro,,Engaging,2023-05-16,,
+OPP-0030,Marty Freudenburg,GTX Plus Pro,,Engaging,2023-02-07,,
+OPP-0031,Niesha Cyrier,GTX Basic,,Prospecting,,,
+OPP-0032,Boris Tarwater,GTX Basic,Bellcrest Media,Lost,2023-07-09,2023-08-03,
+OPP-0033,Anna Boston,MG Special,Oceanic Systems,Won,2023-06-04,2023-08-31,55.64
+OPP-0034,Elease Farler,GTX Plus Basic,Marlow Group,Lost,2023-02-23,2023-04-02,
+OPP-0035,Kary Hendrixson,GTX Basic,Oakridge Networks,Won,2023-03-21,2023-05-01,573.06
+OPP-0036,Boris Tarwater,GTX Pro,Halcyon Software,Lost,2023-09-16,2023-10-23,
+OPP-0037,Cassey Cassidy,GTX Basic,Northwind Traders,Won,2023-05-22,2023-05-27,513.38
+OPP-0038,Wilburn Weyer,MG Advanced,Crestview Services,Lost,2023-03-24,2023-06-07,
+OPP-0039,Kami Berrey,GTK 500,Marlow Group,Prospecting,,,
+OPP-0040,Boris Tarwater,GTK 500,Marlow Group,Won,2023-08-09,2023-08-19,1984.18
+OPP-0041,Cassey Cassidy,GTX Plus Basic,,Engaging,2023-05-08,,
+OPP-0042,Elease Farler,MG Special,Silverpeak Inc,Won,2023-03-21,2023-04-15,65.48
+OPP-0043,Wilburn Weyer,GTX Plus Pro,Vantage Telecom,Prospecting,,,
+OPP-0044,Vernita Chega,GTX Plus Basic,Granite Medical,Engaging,2023-02-25,,
+OPP-0045,Anna Boston,GTXPro,Bellcrest Media,Lost,2023-06-29,2023-08-02,
+OPP-0046,Vernita Chega,GTX Basic,Ironbridge Retail,Won,2023-07-24,2023-09-02,630.16
+OPP-0047,Marty Freudenburg,GTX Plus Basic,Trueline Entertainment,Won,2023-07-24,2023-09-09,1288.56
+OPP-0048,Kary Hendrixson,GTX Plus Basic,,Engaging,2023-05-16,,
+OPP-0049,Kami Berrey,GTX Plus Basic,Vantage Telecom,Won,2023-06-10,2023-08-31,1308.29
+OPP-0050,Kary Hendrixson,GTX Plus Pro,Oakridge Networks,Lost,2023-04-08,2023-04-18,
+OPP-0051,Kami Berrey,GTX Basic,Redgate Solutions,Won,2023-10-03,2023-11-23,534.89
+OPP-0052,Boris Tarwater,GTK 500,Bellcrest Media,Engaging,2023-03-05,,
+OPP-0053,Kami Berrey,GTX Plus Basic,Trueline Entertainment,Won,2023-06-01,2023-06-22,960.9
+OPP-0054,Kami Berrey,MG Advanced,Oceanic Systems,Won,2023-03-31,2023-06-16,3122.85
+OPP-0055,Elease Farler,MG Special,,Prospecting,,,
+OPP-0056,Niesha Cyrier,GTK 500,Crestview Services,Won,2023-08-27,2023-10-27,2299.97
+OPP-0057,Elease Farler,GTX Plus Pro,Bluefin Systems,Lost,2023-03-28,2023-05-08,
+OPP-0058,Elease Farler,MG Advanced,Bluefin Systems,Won,2023-06-21,2023-07-26,3627.52
+OPP-0059,Vernita Chega,MG Special,,Engaging,2023-01-13,,
+OPP-0060,Anna Boston,GTK 500,Crestview Services,Lost,2023-02-07,2023-04-06,
+OPP-0061,Niesha Cyrier,GTX Pro,Silverpeak Inc,Won,2023-07-24,2023-08-16,5121.94
+OPP-0062,Cassey Cassidy,MG Special,Vantage Telecom,Lost,2023-02-24,2023-03-29,
+OPP-0063,Wilburn Weyer,MG Special,Crestview Services,Lost,2023-09-23,2023-10-04,
+OPP-0064,Elease Farler,GTX Pro,Crestview Services,Prospecting,,,
+OPP-0065,Elease Farler,GTK 500,Oceanic Systems,Engaging,2023-08-15,,
+OPP-0066,Elease Farler,GTX Plus Pro,Crestview Services,Lost,2023-10-08,2023-11-02,
+OPP-0067,Anna Boston,GTX Plus Pro,Oakridge Networks,Engaging,2023-05-07,,
+OPP-0068,Elease Farler,GTX Plus Pro,Crestview Services,Won,2023-05-21,2023-06-04,7244.08
+OPP-0069,Vernita Chega,GTX Plus Basic,,Engaging,2023-10-04,,
+OPP-0070,Vernita Chega,GTX Plus Pro,Bluefin Systems,Won,2023-04-20,2023-06-17,6427.33
+OPP-0071,Elease Farler,GTX Plus Pro,Vantage Telecom,Won,2023-04-16,2023-06-09,7754.76
+OPP-0072,Niesha Cyrier,MG Advanced,,Prospecting,,,
+OPP-0073,Boris Tarwater,GTX Plus Basic,Trueline Entertainment,Lost,2023-08-03,2023-10-16,
+OPP-0074,Niesha Cyrier,GTXPro,,Engaging,2023-09-06,,
+OPP-0075,Kami Berrey,MG Advanced,Marlow Group,Engaging,2023-08-28,,
+OPP-0076,Elease Farler,GTX Basic,Acme Hardware,Lost,2023-10-16,2023-10-31,
+OPP-0077,Kami Berrey,GTX Pro,,Engaging,2023-05-14,,
+OPP-0078,Anna Boston,GTX Plus Basic,Oakridge Networks,Engaging,2023-07-14,,
+OPP-0079,Kami Berrey,GTX Plus Basic,Acme Hardware,Lost,2023-08-29,2023-11-11,
+OPP-0080,Cassey Cassidy,GTX Plus Basic,Northwind Traders,Engaging,2023-02-05,,
+OPP-0081,Vernita Chega,GTX Pro,Marlow Group,Won,2023-05-03,2023-07-07,5147.78
+OPP-0082,Niesha Cyrier,GTXPro,Farview Ltd,Engaging,2023-07-08,,
+OPP-0083,Kary Hendrixson,MG Special,Cedarline Corp,Lost,2023-06-09,2023-08-27,
+OPP-0084,Cassey Cassidy,GTX Plus Basic,Granite Medical,Won,2023-07-12,2023-08-11,910.12
+OPP-0085,Vernita Chega,GTX Basic,Oceanic Systems,Won,2023-06-04,2023-06-24,615.17
+OPP-0086,Niesha Cyrier,MG Special,Vantage Telecom,Prospecting,,,
+OPP-0087,Kary Hendrixson,GTK 500,Vantage Telecom,Won,2023-01-07,2023-03-15,1809.92
+OPP-0088,Boris Tarwater,MG Advanced,Marlow Group,Lost,2023-08-24,2023-10-23,
+OPP-0089,Wilburn Weyer,MG Advanced,Oceanic Systems,Won,2023-05-19,2023-07-31,3765.74
+OPP-0090,Anna Boston,GTX Plus Pro,Ironbridge Retail,Lost,2023-05-18,2023-06-23,
+OPP-0091,Kary Hendrixson,GTX Plus Basic,Crestview Services,Lost,2023-05-05,2023-07-21,
+OPP-0092,Niesha Cyrier,MG Advanced,Halcyon Software,Won,2023-01-15,2023-03-02,2961.19
+OPP-0093,Vernita Chega,GTX Plus Basic,Oakridge Networks,Lost,2023-06-24,2023-09-13,
+OPP-0094,Marty Freudenburg,GTK 500,,Prospecting,,,
+OPP-0095,Kami Berrey,GTX Plus Pro,Halcyon Software,Won,2023-05-04,2023-07-30,7239.53
+OPP-0096,Anna Boston,MG Special,,Prospecting,,,
+OPP-0097,Vernita Chega,GTX Plus Basic,Halcyon Software,Won,2023-07-08,2023-09-21,1109.56
+OPP-0098,Kami Berrey,MG Advanced,Crestview Services,Won,2023-06-30,2023-08-08,3130.55
+OPP-0099,Vernita Chega,GTX Basic,Cedarline Corp,Won,2023-06-11,2023-08-23,649.19
+OPP-0100,Wilburn Weyer,GTXPro,Oceanic Systems,Won,2023-09-26,2023-11-06,5747.62
+OPP-0101,Vernita Chega,GTX Plus Basic,,Engaging,2023-04-02,,
+OPP-0102,Elease Farler,GTXPro,Bellcrest Media,Lost,2023-10-11,2023-11-01,
+OPP-0103,Anna Boston,GTX Basic,Bellcrest Media,Lost,2023-10-21,2023-12-25,
+OPP-0104,Anna Boston,GTX Plus Pro,Oakridge Networks,Engaging,2023-01-27,,
+OPP-0105,Anna Boston,GTX Basic,Halcyon Software,Lost,2023-07-25,2023-08-08,
+OPP-0106,Niesha Cyrier,MG Advanced,Marlow Group,Won,2023-03-19,2023-06-04,4002.55
+OPP-0107,Kary Hendrixson,GTXPro,Westfield Employment,Lost,2023-04-26,2023-06-18,
+OPP-0108,Anna Boston,GTX Plus Pro,Bellcrest Media,Engaging,2023-08-08,,
+OPP-0109,Cassey Cassidy,GTK 500,Redgate Solutions,Lost,2023-02-20,2023-05-16,
+OPP-0110,Vernita Chega,GTX Plus Basic,Silverpeak Inc,Won,2023-03-22,2023-04-18,1118.79
+OPP-0111,Wilburn Weyer,GTX Basic,Bellcrest Media,Won,2023-08-29,2023-09-07,490.92
+OPP-0112,Marty Freudenburg,MG Advanced,Silverpeak Inc,Lost,2023-02-06,2023-03-16,
+OPP-0113,Niesha Cyrier,MG Advanced,Vantage Telecom,Lost,2023-04-12,2023-05-01,
+OPP-0114,Elease Farler,GTX Pro,Bluefin Systems,Lost,2023-03-14,2023-03-26,
+OPP-0115,Wilburn Weyer,MG Special,,Engaging,2023-10-19,,
+OPP-0116,Anna Boston,MG Advanced,Oakridge Networks,Engaging,2023-07-26,,
+OPP-0117,Anna Boston,GTX Plus Pro,Vantage Telecom,Prospecting,,,
+OPP-0118,Niesha Cyrier,GTX Plus Basic,Pinehill Marketing,Prospecting,,,
+OPP-0119,Cassey Cassidy,MG Special,Pinehill Marketing,Won,2023-05-18,2023-05-28,60.79
+OPP-0120,Wilburn Weyer,GTX Plus Pro,Oakridge Networks,Won,2023-08-15,2023-09-12,8000.65
+OPP-0121,Kami Berrey,MG Advanced,Halcyon Software,Lost,2023-02-16,2023-04-06,
+OPP-0122,Kami Berrey,GTX Plus Basic,,Engaging,2023-02-23,,
+OPP-0123,Anna Boston,GTX Plus Basic,Trueline Entertainment,Won,2023-07-25,2023-08-03,1076.2
+OPP-0124,Boris Tarwater,GTX Plus Basic,Westfield Employment,Engaging,2023-07-26,,
+OPP-0125,Cassey Cassidy,MG Advanced,Vantage Telecom,Lost,2023-08-25,2023-09-05,
+OPP-0126,Vernita Chega,GTK 500,Crestview Services,Won,2023-09-13,2023-09-24,1894.18
+OPP-0127,Elease Farler,GTX Pro,Cedarline Corp,Won,2023-09-06,2023-09-14,5733.42
+OPP-0128,Niesha Cyrier,MG Special,Bellcrest Media,Engaging,2023-03-23,,
+OPP-0129,Elease Farler,GTX Plus Pro,Crestview Services,Prospecting,,,
+OPP-0130,Wilburn Weyer,GTX Plus Pro,Westfield Employment,Lost,2023-05-30,2023-07-08,
+OPP-0131,Kami Berrey,MG Special,Silverpeak Inc,Won,2023-08-30,2023-11-01,56.13
+OPP-0132,Kami Berrey,GTX Pro,Bluefin Systems,Won,2023-03-11,2023-04-20,5346.83
+OPP-0133,Kami Berrey,GTX Plus Basic,Oakridge Networks,Lost,2023-09-17,2023-09-22,
+OPP-0134,Marty Freudenburg,MG Advanced,Pinehill Marketing,Engaging,2023-10-28,,
+OPP-0135,Anna Boston,MG Special,,Prospecting,,,
+OPP-0136,Elease Farler,MG Special,Ironbridge Retail,Won,2023-08-22,2023-09-20,65.58
+OPP-0137,Vernita Chega,GTK 500,Northwind Traders,Won,2023-07-30,2023-09-13,2359.35
+OPP-0138,Kami Berrey,GTX Plus Pro,Halcyon Software,Lost,2023-03-19,2023-03-28,
+OPP-0139,Wilburn Weyer,GTK 500,Cedarline Corp,Lost,2023-06-19,2023-08-19,
+OPP-0140,Kary Hendrixson,GTK 500,Marlow Group,Lost,2023-01-08,2023-03-06,
+OPP-0141,Wilburn Weyer,GTX Basic,Ironbridge Retail,Won,2023-05-16,2023-08-08,592.4
+OPP-0142,Kary Hendrixson,MG Special,Granite Medical,Engaging,2023-10-01,,
+OPP-0143,Anna Boston,MG Special,Silverpeak Inc,Won,2023-02-05,2023-05-01,59.06
+OPP-0144,Marty Freudenburg,GTX Pro,Cedarline Corp,Won,2023-02-20,2023-04-22,4177.62
+OPP-0145,Marty Freudenburg,GTX Basic,,Prospecting,,,
+OPP-0146,Kami Berrey,GTXPro,Farview Ltd,Won,2023-04-03,2023-04-30,4009.08
+OPP-0147,Kami Berrey,GTK 500,Pinehill Marketing,Won,2023-09-12,2023-10-05,1918.79
+OPP-0148,Marty Freudenburg,GTX Plus Pro,Crestview Services,Engaging,2023-01-05,,
+OPP-0149,Elease Farler,GTXPro,Bellcrest Media,Lost,2023-10-28,2024-01-22,
+OPP-0150,Kami Berrey,MG Advanced,Redgate Solutions,Engaging,2023-06-04,,
+OPP-0151,Anna Boston,GTX Basic,Sunwell Finance,Engaging,2023-10-20,,
+OPP-0152,Marty Freudenburg,GTX Basic,Oakridge Networks,Lost,2023-07-22,2023-07-28,
+OPP-0153,Niesha Cyrier,MG Special,Oceanic Systems,Won,2023-01-26,2023-04-04,62.32
+OPP-0154,Marty Freudenburg,MG Special,Silverpeak Inc,Lost,2023-06-30,2023-09-24,
+OPP-0155,Vernita Chega,GTK 500,Cedarline Corp,Engaging,2023-03-12,,
+OPP-0156,Cassey Cassidy,GTX Plus Basic,Pinehill Marketing,Lost,2023-01-18,2023-03-10,
+OPP-0157,Wilburn Weyer,GTX Basic,Vantage Telecom,Lost,2023-06-17,2023-07-14,
+OPP-0158,Vernita Chega,GTX Pro,Westfield Employment,Lost,2023-07-07,2023-09-14,
+OPP-0159,Marty Freudenburg,MG Special,Bellcrest Media,Engaging,2023-09-04,,
+OPP-0160,Boris Tarwater,MG Special,Marlow Group,Prospecting,,,
+OPP-0161,Vernita Chega,MG Special,Trueline Entertainment,Won,2023-07-23,2023-09-12,45.99
+OPP-0162,Kami Berrey,GTX Basic,,Engaging,2023-03-05,,
+OPP-0163,Marty Freudenburg,GTK 500,Cedarline Corp,Won,2023-07-10,2023-08-13,2124.48
+OPP-0164,Niesha Cyrier,GTK 500,Bluefin Systems,Engaging,2023-04-24,,
+OPP-0165,Anna Boston,MG Advanced,,Engaging,2023-07-29,,
+OPP-0166,Cassey Cassidy,GTX Plus Basic,Cedarline Corp,Lost,2023-03-01,2023-04-05,
+OPP-0167,Elease Farler,GTXPro,Vantage Telecom,Won,2023-10-04,2023-12-23,5288.19
+OPP-0168,Wilburn Weyer,GTX Plus Pro,Oceanic Systems,Won,2023-09-08,2023-11-04,7846.1
+OPP-0169,Marty Freudenburg,GTX Basic,Crestview Services,Won,2023-04-22,2023-06-22,649.12
+OPP-0170,Boris Tarwater,GTX Basic,Trueline Entertainment,Lost,2023-07-08,2023-10-03,
+OPP-0171,Boris Tarwater,GTX Basic,Cedarline Corp,Won,2023-04-08,2023-06-10,460.17
+OPP-0172,Vernita Chega,MG Advanced,Northwind Traders,Won,2023-01-11,2023-02-27,3044.97
+OPP-0173,Wilburn Weyer,MG Special,Trueline Entertainment,Won,2023-02-05,2023-03-08,56.9
+OPP-0174,Vernita Chega,GTX Plus Basic,Oakridge Networks,Lost,2023-01-02,2023-01-25,
+OPP-0175,Wilburn Weyer,GTK 500,Cedarline Corp,Engaging,2023-03-31,,
+OPP-0176,Cassey Cassidy,GTXPro,Pinehill Marketing,Lost,2023-05-02,2023-06-17,
+OPP-0177,Cassey Cassidy,GTXPro,,Prospecting,,,
+OPP-0178,Kary Hendrixson,GTX Plus Pro,Westfield Employment,Won,2023-07-05,2023-09-23,5630.33
+OPP-0179,Elease Farler,GTX Pro,,Prospecting,,,
+OPP-0180,Cassey Cassidy,GTX Basic,Vantage Telecom,Lost,2023-07-25,2023-08-12,
+OPP-0181,Anna Boston,MG Advanced,Bluefin Systems,Lost,2023-02-07,2023-03-25,
+OPP-0182,Niesha Cyrier,GTXPro,Trueline Entertainment,Engaging,2023-10-27,,
+OPP-0183,Kami Berrey,GTK 500,Westfield Employment,Won,2023-08-21,2023-11-11,2089.0
+OPP-0184,Kary Hendrixson,MG Special,Redgate Solutions,Won,2023-10-10,2023-12-09,53.93
+OPP-0185,Vernita Chega,GTX Plus Pro,,Engaging,2023-08-21,,
+OPP-0186,Kary Hendrixson,GTX Plus Basic,Sunwell Finance,Won,2023-05-11,2023-06-04,1177.9
+OPP-0187,Anna Boston,GTX Basic,,Prospecting,,,
+OPP-0188,Boris Tarwater,MG Special,Pinehill Marketing,Prospecting,,,
+OPP-0189,Elease Farler,GTX Plus Basic,Sunwell Finance,Won,2023-07-30,2023-10-28,1289.39
+OPP-0190,Kami Berrey,MG Special,Bellcrest Media,Lost,2023-01-27,2023-04-18,
+OPP-0191,Marty Freudenburg,GTX Plus Basic,,Prospecting,,,
+OPP-0192,Anna Boston,GTX Pro,Sunwell Finance,Won,2023-10-12,2023-10-31,5327.41
+OPP-0193,Niesha Cyrier,GTX Pro,Acme Hardware,Lost,2023-10-13,2024-01-03,
+OPP-0194,Marty Freudenburg,GTX Basic,,Engaging,2023-06-08,,
+OPP-0195,Wilburn Weyer,MG Special,,Prospecting,,,
+OPP-0196,Cassey Cassidy,GTX Basic,Granite Medical,Won,2023-04-21,2023-06-18,539.8
+OPP-0197,Wilburn Weyer,GTX Plus Basic,Pinehill Marketing,Engaging,2023-06-16,,
+OPP-0198,Cassey Cassidy,GTXPro,Oakridge Networks,Won,2023-02-11,2023-04-13,5133.28
+OPP-0199,Anna Boston,GTK 500,Redgate Solutions,Won,2023-05-20,2023-07-29,1817.04
+OPP-0200,Kami Berrey,GTX Basic,Westfield Employment,Engaging,2023-09-07,,
+OPP-0201,Cassey Cassidy,GTXPro,Redgate Solutions,Won,2023-01-04,2023-02-16,5679.76
+OPP-0202,Wilburn Weyer,MG Special,,Engaging,2023-06-17,,
+OPP-0203,Kami Berrey,GTXPro,Westfield Employment,Won,2023-04-28,2023-07-13,5463.84
+OPP-0204,Boris Tarwater,GTX Basic,Vantage Telecom,Won,2023-01-22,2023-01-29,541.15
+OPP-0205,Kary Hendrixson,MG Special,,Engaging,2023-08-08,,
+OPP-0206,Kami Berrey,GTX Plus Basic,,Prospecting,,,
+OPP-0207,Niesha Cyrier,GTX Plus Pro,Bluefin Systems,Lost,2023-07-05,2023-09-03,
+OPP-0208,Kary Hendrixson,GTXPro,Granite Medical,Won,2023-02-10,2023-03-26,5295.01
+OPP-0209,Vernita Chega,GTX Plus Basic,Westfield Employment,Lost,2023-02-09,2023-05-06,
+OPP-0210,Kary Hendrixson,GTK 500,Sunwell Finance,Won,2023-06-28,2023-09-23,2419.81
+OPP-0211,Vernita Chega,GTX Basic,Farview Ltd,Prospecting,,,
+OPP-0212,Kary Hendrixson,GTX Pro,Pinehill Marketing,Won,2023-08-26,2023-11-13,4722.47
+OPP-0213,Niesha Cyrier,MG Advanced,Ironbridge Retail,Won,2023-06-15,2023-07-09,3311.25
+OPP-0214,Anna Boston,GTX Plus Pro,Pinehill Marketing,Won,2023-05-21,2023-06-02,6278.74
+OPP-0215,Kary Hendrixson,GTX Plus Basic,Northwind Traders,Won,2023-01-20,2023-03-13,1241.42
+OPP-0216,Kary Hendrixson,MG Advanced,Oceanic Systems,Lost,2023-02-16,2023-05-08,
+OPP-0217,Elease Farler,GTX Plus Pro,Northwind Traders,Won,2023-10-11,2023-12-12,7766.0
+OPP-0218,Niesha Cyrier,MG Advanced,,Engaging,2023-09-01,,
+OPP-0219,Cassey Cassidy,GTX Plus Pro,Bluefin Systems,Prospecting,,,
+OPP-0220,Wilburn Weyer,GTX Basic,Crestview Services,Engaging,2023-08-13,,
+OPP-0221,Niesha Cyrier,GTXPro,Vantage Telecom,Lost,2023-07-18,2023-09-04,
+OPP-0222,Niesha Cyrier,GTX Basic,Bluefin Systems,Lost,2023-06-21,2023-08-07,
+OPP-0223,Kary Hendrixson,GTK 500,Oakridge Networks,Won,2023-05-26,2023-08-23,2548.21
+OPP-0224,Niesha Cyrier,MG Special,Pinehill Marketing,Engaging,2023-02-11,,
+OPP-0225,Boris Tarwater,GTX Plus Basic,Marlow Group,Lost,2023-07-20,2023-10-09,
+OPP-0226,Kary Hendrixson,GTX Plus Basic,Marlow Group,Won,2023-06-18,2023-09-16,1184.92
+OPP-0227,Elease Farler,GTX Basic,Westfield Employment,Won,2023-08-05,2023-09-25,444.01
+OPP-0228,Marty Freudenburg,GTX Pro,,Engaging,2023-09-06,,
+OPP-0229,Wilburn Weyer,GTXPro,Westfield Employment,Lost,2023-02-21,2023-05-06,
+OPP-0230,Elease Farler,GTX Basic,Oceanic Systems,Won,2023-03-09,2023-05-01,473.94
+OPP-0231,Wilburn Weyer,MG Special,Crestview Services,Won,2023-03-26,2023-04-05,53.04
+OPP-0232,Vernita Chega,GTX Plus Pro,Silverpeak Inc,Won,2023-08-18,2023-10-30,5977.68
+OPP-0233,Anna Boston,MG Special,,Engaging,2023-10-20,,
+OPP-0234,Marty Freudenburg,MG Special,Vantage Telecom,Won,2023-09-28,2023-10-23,61.97
+OPP-0235,Niesha Cyrier,GTX Pro,Sunwell Finance,Prospecting,,,
+OPP-0236,Kary Hendrixson,MG Advanced,Bellcrest Media,Lost,2023-03-05,2023-03-20,
+OPP-0237,Wilburn Weyer,GTX Plus Basic,Marlow Group,Won,2023-09-20,2023-11-19,917.01
+OPP-0238,Vernita Chega,MG Special,Acme Hardware,Won,2023-06-28,2023-08-25,45.17
+OPP-0239,Elease Farler,GTX Plus Basic,,Engaging,2023-02-11,,
+OPP-0240,Boris Tarwater,GTX Basic,Marlow Group,Lost,2023-06-21,2023-07-13,
+OPP-0241,Cassey Cassidy,GTX Plus Basic,Marlow Group,Lost,2023-08-30,2023-11-03,
+OPP-0242,Anna Boston,GTK 500,,Prospecting,,,
+OPP-0243,Wilburn Weyer,GTK 500,Vantage Telecom,Lost,2023-09-28,2023-10-17,
+OPP-0244,Marty Freudenburg,GTXPro,,Prospecting,,,
+OPP-0245,Kary Hendrixson,MG Special,Acme Hardware,Lost,2023-10-02,2023-12-26,
+OPP-0246,Elease Farler,GTK 500,,Engaging,2023-03-15,,
+OPP-0247,Niesha Cyrier,GTX Plus Basic,Farview Ltd,Engaging,2023-08-02,,
+OPP-0248,Kary Hendrixson,GTK 500,Westfield Employment,Lost,2023-02-04,2023-04-19,
+OPP-0249,Elease Farler,MG Special,Acme Hardware,Lost,2023-10-11,2023-12-04,
+OPP-0250,Anna Boston,GTX Basic,Oakridge Networks,Won,2023-07-11,2023-07-18,518.56
+OPP-0251,Kary Hendrixson,GTX Plus Basic,Pinehill Marketing,Engaging,2023-02-23,,
+OPP-0252,Boris Tarwater,GTXPro,Crestview Services,Won,2023-03-31,2023-06-05,5075.04
+OPP-0253,Wilburn Weyer,GTX Basic,Northwind Traders,Won,2023-08-23,2023-10-04,484.35
+OPP-0254,Vernita Chega,GTX Basic,,Engaging,2023-06-08,,
+OPP-0255,Elease Farler,GTX Plus Pro,,Engaging,2023-04-08,,
+OPP-0256,Cassey Cassidy,MG Special,Cedarline Corp,Won,2023-05-20,2023-07-11,53.61
+OPP-0257,Kami Berrey,MG Advanced,Ironbridge Retail,Won,2023-07-17,2023-08-14,3387.85
+OPP-0258,Anna Boston,GTX Plus Basic,Oakridge Networks,Lost,2023-09-23,2023-10-08,
+OPP-0259,Kami Berrey,GTX Basic,Trueline Entertainment,Won,2023-04-03,2023-05-15,510.67
+OPP-0260,Kary Hendrixson,GTX Plus Basic,Crestview Services,Won,2023-06-06,2023-08-27,1191.42
+OPP-0261,Wilburn Weyer,MG Advanced,Northwind Traders,Won,2023-08-17,2023-10-06,3548.88
+OPP-0262,Kami Berrey,GTX Plus Basic,Bluefin Systems,Won,2023-01-30,2023-04-30,1156.29
+OPP-0263,Boris Tarwater,GTK 500,Acme Hardware,Lost,2023-03-23,2023-04-15,
+OPP-0264,Niesha Cyrier,MG Advanced,Marlow Group,Lost,2023-01-18,2023-01-31,
+OPP-0265,Vernita Chega,MG Special,Granite Medical,Won,2023-07-05,2023-09-20,44.71
+OPP-0266,Wilburn Weyer,MG Advanced,Sunwell Finance,Won,2023-07-09,2023-09-08,3750.06
+OPP-0267,Niesha Cyrier,GTXPro,Silverpeak Inc,Won,2023-05-23,2023-06-11,3906.77
+OPP-0268,Wilburn Weyer,GTX Plus Pro,Cedarline Corp,Won,2023-10-15,2023-11-22,7408.05
+OPP-0269,Anna Boston,GTX Pro,,Engaging,2023-09-09,,
+OPP-0270,Kary Hendrixson,GTX Plus Pro,Bluefin Systems,Engaging,2023-08-16,,
+OPP-0271,Boris Tarwater,MG Advanced,Trueline Entertainment,Engaging,2023-02-03,,
+OPP-0272,Marty Freudenburg,MG Special,Sunwell Finance,Engaging,2023-03-31,,
+OPP-0273,Kary Hendrixson,GTX Pro,,Engaging,2023-09-10,,
+OPP-0274,Niesha Cyrier,GTX Plus Basic,Marlow Group,Won,2023-10-10,2024-01-01,1264.45
+OPP-0275,Kary Hendrixson,GTX Plus Basic,Westfield Employment,Won,2023-09-03,2023-10-30,1214.0
+OPP-0276,Niesha Cyrier,GTX Basic,,Prospecting,,,
+OPP-0277,Elease Farler,GTX Plus Basic,,Prospecting,,,
+OPP-0278,Wilburn Weyer,GTX Plus Pro,Cedarline Corp,Won,2023-01-29,2023-04-10,5747.69
+OPP-0279,Wilburn Weyer,GTXPro,Westfield Employment,Won,2023-06-27,2023-08-07,5488.1
+OPP-0280,Marty Freudenburg,GTX Pro,Bellcrest Media,Won,2023-03-06,2023-05-28,4885.56
+OPP-0281,Elease Farler,MG Advanced,,Engaging,2023-10-25,,
+OPP-0282,Niesha Cyrier,MG Advanced,Pinehill Marketing,Lost,2023-06-22,2023-07-02,
+OPP-0283,Cassey Cassidy,GTX Basic,Oakridge Networks,Prospecting,,,
+OPP-0284,Niesha Cyrier,GTX Plus Pro,Halcyon Software,Won,2023-01-16,2023-04-11,6795.67
+OPP-0285,Marty Freudenburg,GTX Plus Pro,,Engaging,2023-07-27,,
+OPP-0286,Cassey Cassidy,GTXPro,Ironbridge Retail,Won,2023-04-15,2023-07-06,4133.85
+OPP-0287,Boris Tarwater,MG Advanced,Granite Medical,Lost,2023-06-26,2023-07-17,
+OPP-0288,Boris Tarwater,GTK 500,Silverpeak Inc,Won,2023-06-13,2023-08-16,1824.52
+OPP-0289,Anna Boston,GTXPro,,Prospecting,,,
+OPP-0290,Wilburn Weyer,MG Special,,Engaging,2023-10-23,,
+OPP-0291,Wilburn Weyer,GTX Plus Pro,Halcyon Software,Lost,2023-08-28,2023-10-11,
+OPP-0292,Anna Boston,GTX Basic,,Prospecting,,,
+OPP-0293,Vernita Chega,GTXPro,Halcyon Software,Prospecting,,,
+OPP-0294,Anna Boston,GTX Plus Basic,Vantage Telecom,Won,2023-02-25,2023-03-19,1263.67
+OPP-0295,Boris Tarwater,MG Special,Granite Medical,Won,2023-01-24,2023-02-04,56.55
+OPP-0296,Vernita Chega,GTX Plus Basic,Granite Medical,Won,2023-02-07,2023-04-17,1074.24
+OPP-0297,Elease Farler,GTX Plus Basic,Marlow Group,Lost,2023-03-02,2023-03-19,
+OPP-0298,Kami Berrey,GTX Plus Basic,Trueline Entertainment,Lost,2023-06-23,2023-08-13,
+OPP-0299,Wilburn Weyer,GTX Pro,Northwind Traders,Won,2023-01-21,2023-01-30,4121.06
+OPP-0300,Boris Tarwater,MG Special,Marlow Group,Won,2023-08-22,2023-11-12,63.65
