@@ -42,7 +42,7 @@ CREATE TABLE sales_teams (
 ) ENGINE=InnoDB;
 
 -- ---------------------------------------------------------
--- sales_pipeline: fact-like table at the centre of the schema
+-- sales_pipeline: fact-like table at the centre of the schema --
 -- ---------------------------------------------------------
 CREATE TABLE sales_pipeline (
     opportunity_id  VARCHAR(20)  NOT NULL PRIMARY KEY,
